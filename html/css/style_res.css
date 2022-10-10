@@ -6,51 +6,288 @@
   display: block;
 }
 
-/* responsive */
-@media screen and (max-width: 1500px) {
+.header_sp {
+  display: none;
 }
 
-@media screen and (max-width: 1150px) {
+/* responsive */
+@media screen and (max-width: 1500px) {
+
+  #h_box04 .product-list .item .card h4 {
+    font-size: 30px;
+  }
+
+  #footer .footer_box01 .f_list01 dl dt {
+    width: 55px;
+  }
+
+  #footer .footer_box01 .f_list01 dl dd {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #header .header_box01 .box_l .h_txt {
+    margin-left: 30px;
+  }
+
+  #header .header_box01 .box_r .btn_search {
+    margin: 0 30px 0 0;
+  }
+
+  #header .header_box02 #logo a {
+    width: 220px;
+  }
+
+  #header #gnavi li {
+    font-size: 14px;
+  }
+
+  #header #gnavi>li:not(:first-child) {
+    margin-left: 30px;
+  }
+
+  #h_box03 .product_cont .product_img {
+    width: 35vw;
+    margin-right: 3vw;
+  }
+
+  #h_box03 .product_cont .product_fr {
+    width: 55vw;
+  }
+
+  #h_box03 .related_slider .item figure {
+    height: 180px;
+  }
+
+  .related_slider .slick-prev,
+  .related_slider .slick-next {
+    width: 12px;
+    height: 70px;
+  }
+
+  #h_news .news_cont .news_left .section {
+    padding: 20px 20px 30px;
+  }
+
+  #h_box04 .product-list .item .card h4 {
+    font-size: 25px;
+  }
+
+  #h_news .news_cont a:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  #h_news .news_cont .news_ttl {
+    font-size: 16px;
+  }
+
+  /* 
+  #h_news .news_cont .news_right dl {
+    height: 190px;
+  } */
+
+  #h_news .news_cont .news_right dl dd {
+    padding: 15px 15px 20px;
+  }
+
+  #footer .footer_box01 .f_list01 dl dd {
+    font-size: 16px;
+  }
+
+  #footer .footer_box01 .f_list01 li {
+    width: calc((100% - 60px) / 4);
+  }
+
+  #footer .footer_box01 .f_list01 dl dt {
+    width: 45px;
+  }
+
+  #footer .footer_box01 .f_list01 dl dd {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
   a {
     transition: all 0.25s ease;
   }
+
   a:hover {
     opacity: 0.7;
   }
+
+  #header #gnavi>li:hover>a,
+  #header #gnavi>li:hover>span {
+    opacity: 1;
+    color: #0c974c;
+  }
+
   #header .header_box01 .box_l .h_phone a {
     pointer-events: none;
   }
-  #header #gnavi li.sub .menu-sub {
-    position: absolute;
-    transition: all 0.3s ease-in;
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-  }
+
   #header #gnavi li.sub:hover .menu-sub {
     opacity: 1;
     visibility: visible;
     pointer-events: initial;
   }
+
   #header #gnavi li.sub .menu-sub li a:hover {
     background: linear-gradient(90deg, #002c28, #0c974c);
     color: #fff;
   }
+
   #h_box03 .related_slider .item:hover {
     border: 1px solid #585858;
   }
 }
 
 @media screen and (max-width: 1024px) {
+  #header .header_box01 .box_l .h_txt {
+    margin-left: 3vw;
+  }
+
+  #header .header_box02 #logo a {
+    width: 200px;
+  }
+
+  #header #gnavi>li:not(:first-child) {
+    margin-left: 3vw;
+  }
+
+  #header #gnavi li.sub:hover .menu-sub.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: initial;
+  }
+
+  .slider .slick-dots li button {
+    width: 40px;
+    height: 8px;
+  }
+
+  #h_mainvisual {
+    height: 550px;
+  }
+
+  #h_mainvisual .mainv_cont h2 {
+    font-size: 35px;
+  }
+
+  #h_mainvisual .mainv_cont .mainv_txt {
+    font-size: 16px;
+  }
+
+  #h_box01 .product_slider {
+    padding: 0 4vw;
+  }
+
+  .product_slider .slick-prev,
+  .product_slider .slick-next {
+    width: 12px;
+    height: 60px;
+  }
+
+  #h_box02 .slider {
+    height: 50vw;
+    max-height: 600px;
+  }
+
+  #h_box03 .c-ttl01 {
+    margin-bottom: 35px;
+  }
+
+  #h_box03 .product_cont .product_fr h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  #h_box03 .product_cont .product_fr .details {
+    margin-bottom: 25px;
+  }
+
+  #h_box03 .product_cont .product_fr .list-logo {
+    margin: 0 -15px -30px;
+  }
+
+  #h_box03 .product_cont .product_fr .list-logo li {
+    margin: 0 15px 30px;
+  }
+
+  #h_box03 .related_slider .item figure {
+    height: 17.578vw;
+  }
+
+  #h_box03 .related_slider {
+    margin: 40px -5px 0;
+  }
+
+  #h_box03 .related_slider .item {
+    padding: 5px;
+    margin: 0 5px;
+  }
+
+  #h_box04 .product-list .item .card h4 {
+    font-size: 20px;
+  }
+
+  #footer .footer_box01 .f_list01 {
+    flex-wrap: wrap;
+    max-width: 630px;
+    margin: 0 auto -30px;
+  }
+
+  #footer .footer_box01 .f_list01 li {
+    width: calc(50% - 15px);
+    margin-bottom: 30px;
+  }
+
+  #footer .f_location ul {
+    flex-direction: column;
+  }
+
+  #footer .f_location ul li {
+    font-size: 14px;
+  }
+
+  #footer .f_location ul li::before {
+    width: 20px;
+    height: 27px;
+  }
+
+  #footer .f_location ul li:first-child {
+    margin: 0 0 15px;
+  }
+
+  #footer .footer_box02 .inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer .footer_box02 .f_link {
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  #footer .footer_box02 .f_link li {
+    font-size: 14px;
+  }
+
+  #footer .footer_box03 .inner .box03_cont {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #footer .footer_box03 .list-link {
+    margin-bottom: 30px;
+  }
 }
 
-@media screen and (max-width: 992px) {
-}
+@media screen and (max-width: 992px) {}
 
 @media screen and (max-width: 768px) {
+
   #wrapper,
   #header,
   #main,
@@ -69,6 +306,7 @@
     display: block;
   }
 
+  #header .header_box01 .box_r.box_pc,
   .box_pc {
     display: none;
   }
@@ -81,7 +319,6 @@
     cursor: pointer;
     display: inline-block;
     z-index: 100;
-    margin-left: 40px;
   }
 
   .hamburger span {
@@ -124,6 +361,22 @@
   }
 
   /* ========== */
+  #header .header_box02 {
+    padding: 10px 0;
+  }
+
+  #header .header_box02 .inner {
+    height: auto;
+  }
+
+  #header .header_box02 .btn_search {
+    width: 94vw;
+    margin: 0 auto;
+  }
+
+  #header .header_box02 .btn_search input {
+    width: 100%;
+  }
 
   #header .menu {
     display: block;
@@ -146,7 +399,7 @@
     padding: 0 0 75px;
   }
 
-  #header #gnavi > li {
+  #header #gnavi>li {
     display: block;
     transition: all 0.3s;
     width: 100%;
@@ -224,16 +477,16 @@
   #header #gnavi.active {
     transform: translateX(-100%);
   }
+
+  #h_box03 .product_cont .product_fr .list-logo.box_pc {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 576px) {
-}
+@media screen and (max-width: 576px) {}
 
-@media screen and (max-width: 490px) {
-}
+@media screen and (max-width: 490px) {}
 
-@media screen and (max-width: 390px) {
-}
+@media screen and (max-width: 390px) {}
 
-@media screen and (max-width: 320px) {
-}
+@media screen and (max-width: 320px) {}
