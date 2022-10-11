@@ -12,7 +12,6 @@
 
 /* responsive */
 @media screen and (max-width: 1500px) {
-
   #h_box04 .product-list .item .card h4 {
     font-size: 30px;
   }
@@ -43,7 +42,7 @@
     font-size: 14px;
   }
 
-  #header #gnavi>li:not(:first-child) {
+  #header #gnavi > li:not(:first-child) {
     margin-left: 30px;
   }
 
@@ -117,8 +116,8 @@
     opacity: 0.7;
   }
 
-  #header #gnavi>li:hover>a,
-  #header #gnavi>li:hover>span {
+  #header #gnavi > li:hover > a,
+  #header #gnavi > li:hover > span {
     opacity: 1;
     color: #0c974c;
   }
@@ -148,6 +147,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  body p {
+    font-size: 15px;
+  }
   #header .header_box01 .box_l .h_txt {
     margin-left: 3vw;
   }
@@ -156,7 +158,7 @@
     width: 200px;
   }
 
-  #header #gnavi>li:not(:first-child) {
+  #header #gnavi > li:not(:first-child) {
     margin-left: 3vw;
   }
 
@@ -323,10 +325,10 @@
   }
 }
 
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+}
 
 @media screen and (max-width: 768px) {
-
   #wrapper,
   #header,
   #main,
@@ -530,7 +532,7 @@
     padding: 0 0 75px;
   }
 
-  #header #gnavi>li {
+  #header #gnavi > li {
     display: block;
     transition: all 0.3s;
     width: 100%;
@@ -809,7 +811,8 @@
   }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+}
 
 @media screen and (max-width: 490px) {
   #h_mainvisual .mainv_cont h2 {
@@ -859,4 +862,5 @@
   }
 }
 
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 320px) {
+}
