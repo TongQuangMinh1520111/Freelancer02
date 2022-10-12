@@ -204,6 +204,26 @@
   #service_box01 .service_list dl p br {
     display: none;
   }
+  /*-----policy-----*/
+  #policy #policy_box .policy_ttl01 {
+    max-width: 400px;
+    font-size: 18px;
+  }
+  #policy #policy_box .policy_ttl02 {
+    font-size: 18px;
+  }
+  #policy #policy_box dl dt {
+    font-size: 16px;
+  }
+  #policy .policy-btn {
+    max-width: 350px;
+  }
+  #policy .gr-btn {
+    margin-top: 45px;
+  }
+  #policy .policy-btn a {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 576px) {

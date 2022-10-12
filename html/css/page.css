@@ -460,9 +460,65 @@ others
 
 /*-----policy-----*/
 #policy.pages #p_mainvisual {
-    background: url(../images/policy/main_bg.jpg) no-repeat center;
-    background-size: cover;
-  }
+  background: url(../images/policy/main_bg.jpg) no-repeat center;
+  background-size: cover;
+}
+#policy #policy_box {
+  padding: 60px 0 0;
+}
+#policy #policy_box .policy_ttl01 {
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #002c28;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  padding: 11px 3vw;
+  margin-bottom: 40px;
+}
+#policy #policy_box .policy_ttl02 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+#policy #policy_box dl:not(:last-child) {
+  margin-bottom: 20px;
+}
+#policy #policy_box dl dt {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+#policy #policy_box dl dd p:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+#policy .policy-btn {
+  width: 100%;
+  max-width: 550px;
+}
+#policy .policy-btn a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #002c28;
+  border-radius: 10px;
+  color: #0c974c;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  padding: 11px 3vw;
+}
+#policy .gr-btn  {
+  margin-top: 60px;
+}
+#policy .gr-btn .policy-btn:not(:last-child) {
+  margin-bottom: 25px;
+}
 /* MOZZILLA CSS */
 @-moz-document url-prefix() {
 }
