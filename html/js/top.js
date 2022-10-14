@@ -1,11 +1,5 @@
 $(document).ready(function () {
   "use strict";
-  $(".hamburger").click(function (e) {
-    e.preventDefault();
-    $(this).toggleClass("active");
-    $(".menu_overlay").toggleClass("opened");
-  });
-
   $(".mainv_slider").slick({
     slidesToShow: 1,
     infinite: true,

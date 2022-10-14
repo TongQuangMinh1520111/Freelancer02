@@ -389,10 +389,11 @@ Header
 ------------------------------------------------------ */
 #header {
   width: 100%;
-  margin: 0 auto;
+  background: #fff;
   text-align: left;
   position: relative;
   z-index: 999;
+  margin: 0 auto;
 }
 
 #header .header_box01 {
@@ -511,13 +512,13 @@ Header
   color: #696969;
 }
 
-#header .header_box01 .box_r .btn_translate {
+#header .btn_translate {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#header .header_box01 .box_r .btn_translate i {
+#header .btn_translate i {
   width: 11px;
   height: 11px;
   background: url(../images/header/ico_vn.png) no-repeat center;
@@ -526,7 +527,7 @@ Header
   margin-right: 5px;
 }
 
-#header .header_box01 .box_r .btn_translate select {
+#header .btn_translate select {
   background: none;
   border: none;
   color: #fff;
@@ -570,30 +571,17 @@ Header
   cursor: pointer;
 }
 
-#header #gnavi li.sub .menu-sub {
-  width: 265px;
-  background: #fff;
-  border-radius: 5px;
-  border: 1px solid #818282;
-  position: absolute;
-  transition: all 0.3s ease-in;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  padding: 5px;
-}
-
-#header #gnavi li.sub .menu-sub li {
+#header #gnavi .menu-sub li {
   position: relative;
 }
 
-#header #gnavi li.sub .menu-sub li:not(:last-child) {
+#header #gnavi .menu-sub li:not(:last-child) {
   padding-bottom: 5px;
   margin-bottom: 5px;
   border-bottom: 1px solid #818282;
 }
 
-#header #gnavi li.sub .menu-sub li a {
+#header #gnavi .menu-sub li a {
   display: flex;
   align-items: center;
   background: #fff;
@@ -787,6 +775,9 @@ Contents
 }
 
 #h_box01 .product_slider .item figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   line-height: 0;
   text-align: center;
   margin-bottom: 20px;
@@ -812,11 +803,13 @@ Contents
   padding-top: 2px;
   margin: 0 auto;
 }
+
 #h_box01 .product_slider .item img {
   max-width: 100%;
   height: 100%;
   object-fit: contain;
 }
+
 .product_slider .slick-prev,
 .product_slider .slick-next {
   position: absolute;
