@@ -1,10 +1,37 @@
 @media screen and (max-width: 1500px) {}
 
 @media screen and (max-width: 1200px) {
-  /*----about-----*/
+
+  /*----news-----*/
+  #news .news_tab ul {
+    top: -25px;
+  }
+
+  #news .news_tab ul li {
+    height: 50px;
+  }
+
+  #news .news_tab ul li span {
+    font-size: 18px;
+  }
+
+  #news .news_ttl01,
+  #news .news_list .news_ttl02 {
+    font-size: 16px;
+  }
+
+  #news .news_block01 .box-right .news_card {
+    height: 17vw;
+    max-height: 195px;
+  }
 }
 
-@media screen and (min-width: 1025px) {}
+@media screen and (min-width: 1025px) {
+  #news .news_tab ul li span:hover {
+    background: #fff;
+    color: #0c974c;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .pages #p_mainvisual {
@@ -96,6 +123,59 @@
 
   #contact #contact_box02 .inner {
     max-width: 670px;
+  }
+
+  /*-----news-----*/
+  #news .news_tab ul {
+    justify-content: center;
+    margin: 0 -8px -15px;
+  }
+
+  #news .news_tab ul li {
+    width: auto;
+    min-width: 150px;
+    margin: 0 8px 15px;
+  }
+
+  #news .news_tab ul li span {
+    font-size: 16px;
+    padding: 10px 10px 8px;
+  }
+
+  #news .news_block01 .box-right {
+    display: none;
+  }
+
+  #news .news_block01 .box-left {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  #news .news_block01 .box-left .card_cont {
+    padding: 20px 3vw 30px;
+  }
+
+  #news .news_card .news_txt {
+    height: auto;
+  }
+
+  #news .news_list .card {
+    padding: 10px 10px 20px;
+  }
+
+  #news .news_list.list01 {
+    max-width: 660px;
+    justify-content: space-between;
+    margin: 0 auto -30px;
+  }
+
+  #news .news_list.list01 li {
+    width: calc(50% - 15px);
+    margin: 0 0 30px;
+  }
+  #news .news_list .news_ttl02 {
+    margin-bottom: 15px;
   }
 }
 
@@ -314,9 +394,21 @@
     padding: 10px 10px;
   }
 
+  /*-----news-----*/
+  #news .news_block02 {
+    margin-top: 45px;
+  }
+
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+  #news .news_list.list01 {
+    max-width: 300px;
+  }
+  #news .news_list.list01 li {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 490px) {
 
@@ -335,6 +427,15 @@
 
   #contact #contact_box02 .c-form02 {
     display: block;
+  }
+
+  /*-----news-----*/
+  #news .meta {
+    display: block;
+  }
+
+  #news .news_block01 .box-left .meta {
+    margin-top: 25px;
   }
 }
 
