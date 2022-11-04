@@ -43,8 +43,23 @@ $(document).ready(function () {
     });
   }
 
+  $(".news_slider02").slick({
+    slidesToShow: 3,
+    infinite: true,
+    dots: false,
+    arrows: true,
+    touchMove: true,
+    pauseOnHover: false,
+    autoplay: false,
+    autoplaySpeed: 3000,
+  });
+
   mvheight();
 });
+
+
+
+
 
 function mvheight() {
   var setVhCustomVar = function () {
